@@ -35,14 +35,14 @@
 			path = Ping;
 			sourceTree = "<group>";
 		};
-		FC22FD672DE1BB00006F908F /* TESTTests */ = {
+		FC22FD672DE1BB00006F908F /* PingTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TESTTests;
+			path = PingTests;
 			sourceTree = "<group>";
 		};
-		FC22FD712DE1BB00006F908F /* TESTUITests */ = {
+		FC22FD712DE1BB00006F908F /* PingUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TESTUITests;
+			path = PingUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -76,8 +76,8 @@
 			isa = PBXGroup;
 			children = (
 				FC22FD592DE1BB00006F908F /* Ping */,
-				FC22FD672DE1BB00006F908F /* TESTTests */,
-				FC22FD712DE1BB00006F908F /* TESTUITests */,
+				FC22FD672DE1BB00006F908F /* PingTests */,
+				FC22FD712DE1BB00006F908F /* PingUITests */,
 				FC22FD582DE1BB00006F908F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -131,7 +131,7 @@
 				FC22FD662DE1BB00006F908F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FC22FD672DE1BB00006F908F /* TESTTests */,
+				FC22FD672DE1BB00006F908F /* PingTests */,
 			);
 			name = PingTests;
 			packageProductDependencies = (
@@ -154,7 +154,7 @@
 				FC22FD702DE1BB00006F908F /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				FC22FD712DE1BB00006F908F /* TESTUITests */,
+				FC22FD712DE1BB00006F908F /* PingUITests */,
 			);
 			name = PingUITests;
 			packageProductDependencies = (
