@@ -24,15 +24,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		FC22FD572DE1BB00006F908F /* TEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC22FD642DE1BB00006F908F /* TESTTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FC22FD6E2DE1BB00006F908F /* TESTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TESTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC22FD572DE1BB00006F908F /* Ping.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ping.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC22FD642DE1BB00006F908F /* PingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC22FD6E2DE1BB00006F908F /* PingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		FC22FD592DE1BB00006F908F /* TEST */ = {
+		FC22FD592DE1BB00006F908F /* Ping */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TEST;
+			path = Ping;
 			sourceTree = "<group>";
 		};
 		FC22FD672DE1BB00006F908F /* TESTTests */ = {
@@ -75,7 +75,7 @@
 		FC22FD4E2DE1BB00006F908F = {
 			isa = PBXGroup;
 			children = (
-				FC22FD592DE1BB00006F908F /* TEST */,
+				FC22FD592DE1BB00006F908F /* Ping */,
 				FC22FD672DE1BB00006F908F /* TESTTests */,
 				FC22FD712DE1BB00006F908F /* TESTUITests */,
 				FC22FD582DE1BB00006F908F /* Products */,
@@ -85,9 +85,9 @@
 		FC22FD582DE1BB00006F908F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FC22FD572DE1BB00006F908F /* TEST.app */,
-				FC22FD642DE1BB00006F908F /* TESTTests.xctest */,
-				FC22FD6E2DE1BB00006F908F /* TESTUITests.xctest */,
+				FC22FD572DE1BB00006F908F /* Ping.app */,
+				FC22FD642DE1BB00006F908F /* PingTests.xctest */,
+				FC22FD6E2DE1BB00006F908F /* PingUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -95,9 +95,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FC22FD562DE1BB00006F908F /* TEST */ = {
+		FC22FD562DE1BB00006F908F /* Ping */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC22FD782DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TEST" */;
+			buildConfigurationList = FC22FD782DE1BB00006F908F /* Build configuration list for PBXNativeTarget "Ping" */;
 			buildPhases = (
 				FC22FD532DE1BB00006F908F /* Sources */,
 				FC22FD542DE1BB00006F908F /* Frameworks */,
@@ -108,18 +108,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				FC22FD592DE1BB00006F908F /* TEST */,
+				FC22FD592DE1BB00006F908F /* Ping */,
 			);
-			name = TEST;
+			name = Ping;
 			packageProductDependencies = (
 			);
 			productName = TEST;
-			productReference = FC22FD572DE1BB00006F908F /* TEST.app */;
+			productReference = FC22FD572DE1BB00006F908F /* Ping.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FC22FD632DE1BB00006F908F /* TESTTests */ = {
+		FC22FD632DE1BB00006F908F /* PingTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC22FD7B2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TESTTests" */;
+			buildConfigurationList = FC22FD7B2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "PingTests" */;
 			buildPhases = (
 				FC22FD602DE1BB00006F908F /* Sources */,
 				FC22FD612DE1BB00006F908F /* Frameworks */,
@@ -133,16 +133,16 @@
 			fileSystemSynchronizedGroups = (
 				FC22FD672DE1BB00006F908F /* TESTTests */,
 			);
-			name = TESTTests;
+			name = PingTests;
 			packageProductDependencies = (
 			);
 			productName = TESTTests;
-			productReference = FC22FD642DE1BB00006F908F /* TESTTests.xctest */;
+			productReference = FC22FD642DE1BB00006F908F /* PingTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FC22FD6D2DE1BB00006F908F /* TESTUITests */ = {
+		FC22FD6D2DE1BB00006F908F /* PingUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FC22FD7E2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TESTUITests" */;
+			buildConfigurationList = FC22FD7E2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "PingUITests" */;
 			buildPhases = (
 				FC22FD6A2DE1BB00006F908F /* Sources */,
 				FC22FD6B2DE1BB00006F908F /* Frameworks */,
@@ -156,11 +156,11 @@
 			fileSystemSynchronizedGroups = (
 				FC22FD712DE1BB00006F908F /* TESTUITests */,
 			);
-			name = TESTUITests;
+			name = PingUITests;
 			packageProductDependencies = (
 			);
 			productName = TESTUITests;
-			productReference = FC22FD6E2DE1BB00006F908F /* TESTUITests.xctest */;
+			productReference = FC22FD6E2DE1BB00006F908F /* PingUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -171,7 +171,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1630;
-				LastUpgradeCheck = 1630;
+				LastUpgradeCheck = 2630;
 				TargetAttributes = {
 					FC22FD562DE1BB00006F908F = {
 						CreatedOnToolsVersion = 16.3;
@@ -186,12 +186,13 @@
 					};
 				};
 			};
-			buildConfigurationList = FC22FD522DE1BB00006F908F /* Build configuration list for PBXProject "TEST" */;
+			buildConfigurationList = FC22FD522DE1BB00006F908F /* Build configuration list for PBXProject "Ping" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = FC22FD4E2DE1BB00006F908F;
 			minimizedProjectReferenceProxies = 1;
@@ -200,9 +201,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FC22FD562DE1BB00006F908F /* TEST */,
-				FC22FD632DE1BB00006F908F /* TESTTests */,
-				FC22FD6D2DE1BB00006F908F /* TESTUITests */,
+				FC22FD562DE1BB00006F908F /* Ping */,
+				FC22FD632DE1BB00006F908F /* PingTests */,
+				FC22FD6D2DE1BB00006F908F /* PingUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -258,12 +259,12 @@
 /* Begin PBXTargetDependency section */
 		FC22FD662DE1BB00006F908F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC22FD562DE1BB00006F908F /* TEST */;
+			target = FC22FD562DE1BB00006F908F /* Ping */;
 			targetProxy = FC22FD652DE1BB00006F908F /* PBXContainerItemProxy */;
 		};
 		FC22FD702DE1BB00006F908F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FC22FD562DE1BB00006F908F /* TEST */;
+			target = FC22FD562DE1BB00006F908F /* Ping */;
 			targetProxy = FC22FD6F2DE1BB00006F908F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -274,6 +275,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -328,6 +330,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -338,6 +341,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -385,6 +389,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -461,7 +466,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEST.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ping";
 			};
 			name = Debug;
 		};
@@ -480,7 +485,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TEST.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/TEST";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ping.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ping";
 			};
 			name = Release;
 		};
@@ -521,7 +526,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FC22FD522DE1BB00006F908F /* Build configuration list for PBXProject "TEST" */ = {
+		FC22FD522DE1BB00006F908F /* Build configuration list for PBXProject "Ping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC22FD762DE1BB00006F908F /* Debug */,
@@ -530,7 +535,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC22FD782DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TEST" */ = {
+		FC22FD782DE1BB00006F908F /* Build configuration list for PBXNativeTarget "Ping" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC22FD792DE1BB00006F908F /* Debug */,
@@ -539,7 +544,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC22FD7B2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TESTTests" */ = {
+		FC22FD7B2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "PingTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC22FD7C2DE1BB00006F908F /* Debug */,
@@ -548,7 +553,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FC22FD7E2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "TESTUITests" */ = {
+		FC22FD7E2DE1BB00006F908F /* Build configuration list for PBXNativeTarget "PingUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FC22FD7F2DE1BB00006F908F /* Debug */,
